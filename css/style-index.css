@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, ul, li, a {
+    list-style: none;
+    font-family: arial;
+    text-decoration: none;
+    color: #fff;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    padding: 0;
+    align-items: center;
+    font-size: 15px;
+    margin: 0;
+    height: 130px;
+    width: 100%;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-list li {
+    padding: 10px 20px;
+    border-radius: 15px;
+    
+}
